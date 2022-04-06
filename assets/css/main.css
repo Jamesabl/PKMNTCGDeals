@@ -2569,7 +2569,7 @@ hr {
 .popup {
 	position: fixed;
 	padding: 10px;
-	max-width: 500px;
+	max-width: 600px;
 	border-radius: 10px;
 	top: 50%;
 	left: 50%;
@@ -2592,7 +2592,7 @@ hr {
   .popup-close {
 	position: absolute;
 	padding: 10px;
-	max-width: 500px;
+	max-width: 600px;
 	border-radius: 10px;
 	top: 50%;
 	left: 50%;
@@ -2637,15 +2637,40 @@ hr {
   }
 
 
-  .referralsites{
+.referralsites{
 	max-width: 150px;
 	max-height: 150px;
-	padding: 15px;
-  }
+}
 
 
-  .popup span {
+.popup span {
 	font-family: 'pokemonGB';
 	text-align: center;
 	font-size: medium;
+}
+.popup span::after{
+	content: "\a";
+    white-space: pre;
+}
+
+@media screen and (max-width: 1024px) {
+	.popup {
+		width: 220px;
 	}
+
+	.referralsites.amazon{
+		max-width: 100px;
+		padding-right: 3px;
+		float: left;
+	}
+	.referralsites.ebay{
+		max-width: 100px;
+		padding-right: 3px;
+		float: right;
+		
+	}
+	body.modal-open {
+		overflow: hidden;
+		position: fixed;
+	}
+}
