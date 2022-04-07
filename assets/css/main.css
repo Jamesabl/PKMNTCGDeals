@@ -2530,8 +2530,8 @@ body{
 		padding-top: 5px;
 	}
 	.setlogo {
-		position: sticky;
 		-webkit-position: sticky;
+		/*position: sticky;*/
 		top: 2px;
 		background: #f4f4f4;
 		background-image: url('images/bg.png'), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -2667,11 +2667,10 @@ hr {
 		max-width: 100px;
 		padding-right: 3px;
 		float: right;
-		
 	}
 
 }
+
 body.modal-open {
-	overflow: hidden;
-	position: fixed;
+    overflow: hidden;
 }
