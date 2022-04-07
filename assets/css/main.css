@@ -2669,8 +2669,9 @@ hr {
 		float: right;
 		
 	}
-	body.modal-open {
-		overflow: hidden;
-		position: fixed;
-	}
+
+}
+body.modal-open {
+	overflow: hidden;
+	position: fixed;
 }
