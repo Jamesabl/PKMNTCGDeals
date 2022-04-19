@@ -2549,10 +2549,16 @@ body{
 
 }
 
-.banner {
+.bannertext {
 	font-family: 'pokemonGB';
 	text-align: center;
 	font-size: x-large;
+}
+
+.bannertext2 {
+	font-family: 'pokemonGB';
+	text-align: center;
+	font-size: large;
 }
 
 hr {
@@ -2562,6 +2568,9 @@ hr {
 }
 
 
+.bannerimage{
+	max-width: 800px;
+}
 
 
 
