@@ -2502,6 +2502,22 @@ body{
 .wrapper{
 	padding: 2px;
 }
+
+.bannertext {
+	font-family: 'pokemonGB';
+	text-align: center;
+	font-size: x-large;
+}
+
+.bannertext2 {
+	font-family: 'pokemonGB';
+	text-align: center;
+	font-size: large;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
 	.image-grid{
 		--num-cols: 2;
@@ -2544,27 +2560,17 @@ body{
 	.bannertext {
 		font-family: 'pokemonGB';
 		text-align: center;
-		font-size: medium;
+		font-size: small;
 	}
 	.bannertext2 {
 		font-family: 'pokemonGB';
 		text-align: center;
-		font-size: small;
+		font-size: x-small;
 	}
 
 }
 
-.bannertext {
-	font-family: 'pokemonGB';
-	text-align: center;
-	font-size: x-large;
-}
 
-.bannertext2 {
-	font-family: 'pokemonGB';
-	text-align: center;
-	font-size: large;
-}
 
 hr {
 	padding: 0;
