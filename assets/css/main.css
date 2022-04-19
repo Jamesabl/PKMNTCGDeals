@@ -2541,10 +2541,15 @@ body{
 		max-height: 200px;
 		max-width: 200px;
 	}
-	.banner span {
+	.bannertext {
 		font-family: 'pokemonGB';
 		text-align: center;
 		font-size: medium;
+	}
+	.bannertext2 {
+		font-family: 'pokemonGB';
+		text-align: center;
+		font-size: small;
 	}
 
 }
